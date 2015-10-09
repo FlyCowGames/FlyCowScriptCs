@@ -44,6 +44,7 @@
     <Compile Include="..\*.cs">
       <Link>%(Filename)%(Extension)</Link>
     </Compile>
+    <Compile Include="FlyCowTests.cs" />
     <Compile Include="ModuleConfigurationTests.cs" />
     <Compile Include="ModuleLoaderTests.cs" />
     <Compile Include="ObjectSerializerTests.cs" />
@@ -75,6 +76,9 @@
     </Reference>
     <Reference Include="NuGet.Core">
       <HintPath>..\..\packages\NuGet.Core.2.8.6\lib\net40-Client\NuGet.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>..\..\packages\NUnit.2.6.4\lib\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="Ploeh.AutoFixture">
       <HintPath>..\..\packages\AutoFixture.3.18.8\lib\net40\Ploeh.AutoFixture.dll</HintPath>

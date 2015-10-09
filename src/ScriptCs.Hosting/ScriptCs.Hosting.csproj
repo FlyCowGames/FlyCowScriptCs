@@ -57,6 +57,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -75,6 +76,7 @@
       <Link>Guard.cs</Link>
     </Compile>
     <Compile Include="ColoredConsoleLogProvider.cs" />
+    <Compile Include="FlyCowCode.cs" />
     <Compile Include="ITypeResolver.cs" />
     <Compile Include="FileConsole.cs" />
     <Compile Include="IInitializationServices.cs" />
