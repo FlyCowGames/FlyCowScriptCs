@@ -61,10 +61,10 @@ namespace ScriptCs.Hosting.Package
             }
 
             var sourceProvider = new PackageSourceProvider(settings);
-
+            
             // this is the point where FlyCow code has been inserted
             FlyCowCredentialProvider.Ensure(settings);
-
+            
             var sources = sourceProvider.LoadPackageSources().Where(i => i.IsEnabled == true);
 
             if (sources == null || !sources.Any())
